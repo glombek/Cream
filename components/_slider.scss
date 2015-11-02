@@ -1,7 +1,7 @@
 //Thanks to https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
 @mixin cream-slider (
-	$track-color: $foreground-color,
-	$thumb-color: $primary-color,
+	$track-color: $cream-foreground-color,
+	$thumb-color: $cream-primary-color,
 	
 	$thumb-radius: 50%,
 	$thumb-height: $cream-form-element-height,
@@ -10,22 +10,22 @@
 	$thumb-shadow-blur: $cream-shadow-size,
 	$thumb-shadow-color: $cream-shadow-color,
 	$thumb-border-width: $cream-border-width,
-	$thumb-border-color: $foreground-color,
+	$thumb-border-color: $cream-foreground-color,
 	
 	$track-width: 100%,
 	$track-height: $cream-form-element-height / 3,
 	$track-shadow-size: $cream-shadow-size,
 	$track-shadow-blur: $cream-shadow-size,
 	$track-shadow-color: $cream-shadow-color,
-	$track-border-width: 1px,
-	$track-border-color: $foreground-color,
+	$track-border-width: $cream-border-width,
+	$track-border-color: $cream-foreground-color,
 	
 	$track-radius: $cream-border-radius,
 	$contrast: 5%
 ) {
 
 @mixin shadow($shadow-size,$shadow-blur,$shadow-color) {
-   box-shadow: $shadow-size $shadow-size $shadow-blur $shadow-color, 0px 0px $shadow-size lighten($shadow-color,5%);
+   box-shadow: $shadow-size $shadow-size $shadow-blur $shadow-color, 0 0 $shadow-size lighten($shadow-color,5%);
  }
  
 %track {
