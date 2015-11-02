@@ -1,11 +1,16 @@
 {
   "name": "Cream",
-  "version": "0.0.1",
-  "description": "",
+  "description": "Gooey component-y goodness",
+  "license" : "LICENSE",
+  "authors": [
+    { "name": "Joe Glombek", "homepage": "https://joe.gl/ombek" }
+  ],
   "dependencies": {
     "bourbon": ">=4.2.6"
   },
-  "main": "cream.scss",
+  "main": [
+    "cream.scss"
+  ],
   "ignore": [
     "**/.*",
     "bower_components"
