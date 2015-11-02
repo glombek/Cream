@@ -45,7 +45,6 @@
   cursor: pointer;
 }
 
-input[type=range] {
   -webkit-appearance: none;
   margin: $thumb-height/2 0;
   width: $track-width;
@@ -113,5 +112,4 @@ input[type=range] {
   &:focus::-ms-fill-upper {
     background: lighten($track-color, $contrast);
   }
-}
 }
