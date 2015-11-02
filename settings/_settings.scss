@@ -1,8 +1,8 @@
 $cream-foreground-color: black !default;
 $cream-primary-color: #2266FF !default; 
 
-$cream-border-radius: 3px !default;
-$cream-border-width: 1px !default;
-$cream-shadow-size: 1px !default;
+$cream-border-radius: 0.2rem !default;
+$cream-border-width: 0.1rem !default;
+$cream-shadow-size: 0.1rem !default;
 $cream-shadow-color: tint($cream-foreground-color, 10%);
 $cream-form-element-height: 1.5rem !default;
