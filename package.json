@@ -1,0 +1,7 @@
+{
+  "name": "Cream",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bower": ">1.5.3"
+  }
+}

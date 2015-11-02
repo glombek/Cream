@@ -1,0 +1,13 @@
+{
+  "name": "Cream",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "bourbon": ">4.2.6"
+  },
+  "main": "cream.scss",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}
